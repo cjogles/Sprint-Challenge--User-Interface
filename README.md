@@ -34,13 +34,53 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Answer:
+
+    HTML is the language used to create the structure of the webpage and is made up of elements called tags. 
+    There are a vast number of tags all with different properties and meaning. Creating a webpage using 
+    semantic HTML requires a web developer to use "meaningful" or "descriptive" HTML tags. When a web developer
+    does this then they are using semantic html to create a web page. Semantic HTML can be read by screen readers
+    (i.e. assitive technology that users utilize to read a web page) and improve SEO (search engine optimization).
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    Answer:
+
+    display: block; --> Targeting an HTML element with this 'display' property and assigning it the value of 'block'
+    will style the html element into 'block level elements', forcing the elements to stack onto one another and take 
+    up the whole width of the page. p tags and div tags display this way by default. 
+
+    display: inline; --> Targeting an HTML element with this 'display property and assigning it the value of 'inline' 
+    will style the html element to render on the web page 'inline', forcing the elements to line up next to eachother. 
+    Any width and height properties have no effect. 
 
 3. What are the 4 areas of the box model?
 
+    Answer:
+
+    (From Inside Out)
+    Element Content
+    Element Padding
+    Element Border
+    Element Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    Answer:
+
+    Align-items: center --> This property targets an HTML element by centering it on the screen vertically, 
+    so long as the flex-direction hasn't been switched using 'flex-direction: column;'. So to be clear:
+    this property works on the verticle axis, up and down, or the y-axis. 
+
 5. Explain why git is valuable to a team of developers.
+
+    Answer:
+
+    git is a software product created to control different versions of code creation. This is useful because
+    developers can create code locally without disturbing the master project, can go back to original code when 
+    they write something that breaks everything, and they can look back in history at their progress, learn from 
+    their mistakes, and even assign different developers different componenets to work on, thereby increasing
+    efficiency, productivity, and the end product for the team of developers. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
